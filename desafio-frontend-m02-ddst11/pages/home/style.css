@@ -1,0 +1,118 @@
+.menu .menu__top .menu__top--home {
+    color: #5FB4A2;
+}
+
+.menu .menu__top .menu__top--portifolio {
+    color: #33323D;
+}
+
+.menu .menu__top .menu__top--contact {
+    color: #33323D;
+}
+
+.hero {
+    position: relative;
+    margin-top: 58px;
+}
+
+.hero__img {
+    height: 600px;
+    width: 1110px;
+}
+
+.hero__apresentation {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+   
+    height: 357px;
+    width: 445px;
+
+    background-color: #ffffff;
+}
+
+.hero__text {
+    margin: 56px 28px 53px 27px;
+}
+
+.btn__hero {
+    display: flex;
+    align-items: center;
+
+    width: 200px;
+    height: 48px;
+
+    border: none;
+    background-color: #203A4C;
+    color: #FFFFFF; 
+}
+
+.btn__hero p {
+    width: 100%;
+}
+
+.btn__hero:hover {
+    background-color: #5FB4A2;
+}
+
+.btn__hero-img {
+    display: flex;
+    max-height: 100%;
+    padding: 18px 16px;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 430px;
+    height: 601px;
+
+    border-top: 1px solid #EAEAEB;
+    border-bottom: 1px solid #EAEAEB;
+
+    margin-left: 140px;
+}
+
+.about {
+    display: flex;
+
+    margin: 150px 0 149px;
+}
+
+.about__img {
+    width: 540px;
+    height: 600px;
+}
+
+.about__title {
+    margin-top: 51px;
+
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.about__text {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    color: #33323D;
+}
+
+.btn__about {
+    margin: 24px 113px 46px 113px;
+}
